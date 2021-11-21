@@ -490,7 +490,7 @@ The Python extension will automatically install the [Pylance](https://marketplac
 ---
 
 <table>
-<tr><td><img src="https://raw.githubusercontent.com/microsoft/vscode-remote-release/main/docs/images/remote-containers-blue.svg" alt="logo" width="60"></td><td><h2>Remote - Containers</h2></td></tr>
+<tr><td><img src="https://cdn.vsassets.io/v/M195_20211109.3/_content/Header/default_icon_128.png" alt="logo" width="60"></td><td><h2>Remote - Containers</h2></td></tr>
 </table>
 
 [![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/ms-vscode-remote.remote-containers.svg)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) [![Installs](https://vsmarketplacebadge.apphb.com/installs/ms-vscode-remote.remote-containers.svg)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) [![Rating](https://vsmarketplacebadge.apphb.com/rating/ms-vscode-remote.remote-containers.svg)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
