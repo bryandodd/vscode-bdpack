@@ -1,7 +1,7 @@
 {
     "name": "bdpack",
-    "displayName": "BDPack",
-    "description": "Bryan's preferred extensions",
+    "displayName": "Bryan's Extension Pack",
+    "description": "A personal selection of extensions I use regularly.",
     "version": "1.0.1",
     "engines": {
         "vscode": "^1.62.0"
@@ -9,6 +9,18 @@
     "categories": [
         "Extension Packs"
     ],
+	"publisher": "BryanDodd",
+	"author": {
+		"name": "Bryan Dodd"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bryandodd/vscode-bdpack"
+	},
+	"galleryBanner": {
+		"color": "#1e415e",
+		"theme": "dark"
+	},
     "extensionPack": [ 
         "aaron-bond.better-comments", 
         "alefragnani.Bookmarks", 
