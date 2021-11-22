@@ -1,8 +1,8 @@
 {
     "name": "bdpack",
     "displayName": "Bryan's Extension Pack",
-    "description": "A personal selection of extensions I use regularly.",
-    "version": "1.0.1",
+    "description": "A personal toolset for working with web languages, .net, python, terraform, k8s, and other technologies.",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.62.0"
     },
