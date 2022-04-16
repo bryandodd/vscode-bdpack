@@ -5,6 +5,13 @@ All notable changes to the "bdpack" extension pack will be documented in this fi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2022-04-16
+### Removed
+- Bracket Pair Colorizer 2 _(deprecated)_
+
+### Added
+- AWS Toolkit - [amazonwebservices.aws-toolkit-vscode](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
+
 ## [1.0.2] - 2021-11-21
 ### Changed
 - updated package description

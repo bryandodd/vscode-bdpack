@@ -2,9 +2,9 @@
     "name": "bdpack",
     "displayName": "Bryan's Extension Pack",
     "description": "A personal toolset for working with web languages, .net, python, terraform, k8s, and other technologies.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "engines": {
-        "vscode": "^1.62.0"
+        "vscode": "^1.66.2"
     },
     "categories": [
         "Extension Packs"
@@ -24,9 +24,9 @@
     "extensionPack": [ 
         "aaron-bond.better-comments", 
         "alefragnani.Bookmarks", 
+        "amazonwebservices.aws-toolkit-vscode", 
         "christian-kohler.npm-intellisense", 
         "christian-kohler.path-intellisense", 
-        "CoenraadS.bracket-pair-colorizer-2", 
         "DotJoshJohnson.xml", 
         "eamodio.gitlens", 
         "eg2.vscode-npm-script", 

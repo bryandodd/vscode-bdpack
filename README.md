@@ -4,6 +4,8 @@
 
 The extensions packaged in this bundle are idenfied below in alphabetical order.
 
+[Notes](#notes) at the bottom of this document.
+
 ---
 
 <table>
@@ -47,6 +49,41 @@ Auto-imports and provides intellisense for references that were not yet imported
 `Fudge.auto-using`
 
 > [Repository](https://github.com/natanfudge/Auto-Using)
+
+---
+
+<table>
+<tr><td><img src="https://raw.githubusercontent.com/aws/aws-toolkit-vscode/master/resources/aws-icon-128x128.png" alt="logo" width="60"></td><td><h2>AWS Toolkit</h2></td></tr>
+</table>
+
+[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/AmazonWebServices.aws-toolkit-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode) [![Installs](https://vsmarketplacebadge.apphb.com/installs/AmazonWebServices.aws-toolkit-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode) [![Rating](https://vsmarketplacebadge.apphb.com/rating/AmazonWebServices.aws-toolkit-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
+
+This particular extension has been indispensable to me. So much of my day is spent working with AWS resources, this tool makes it faster and easier for me to interact with resources without having to jump through hoops clicking through the AWS web console. It covers a lot of ground, and I've generally found Amazon's [AWS Toolkit for Visual Studio Code documentation](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/welcome.html?icmpid=docs_tookitvscode_console) to be quite helpful getting started and working through problems. 
+
+As of version `1.37.0`, it covers:
+* [AWS Explorer](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#ui-components-aws-expl)
+  * API Gateway
+  * [App Runner](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/using-apprunner.html)
+  * CloudFormation stacks
+  * [CloudWatch Logs](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#cloudwatchlogs)
+  * Elastic Container Registry _(ECR)_
+  * [EventBridge schemas](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#eventbridge)
+  * [IoT explorer](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/iot-start.html)
+  * Lambda functions
+  * S3 explorer
+  * [Step Functions](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#sfn-files)
+* [CDK Explorer](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#ui-components-cdk-expl) _(Cloud Development Kit)_
+* [Serverless Applications](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#sam-and-lambda) _(SAM)_
+* [Elastic Container Service task definition files](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#ecs-files) _(ECS)_
+* [Systems Manager](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#ssm-files)
+* [`AWS:` Commands](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#aws-commands)
+* [Experimental Features](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode#experimental-features)
+
+![Sample](https://raw.githubusercontent.com/aws/aws-toolkit-vscode/master/resources/marketplace/vscode/overview-aws-explorer.png)
+
+`AmazonWebServices.aws-toolkit-vscode`
+
+> [Repository](https://github.com/aws/aws-toolkit-vscode)
 
 ---
 
@@ -112,22 +149,6 @@ Here are some of the features that **Bookmarks** provides:
 `alefragnani.Bookmarks`
 
 > [Repository](https://github.com/alefragnani/vscode-bookmarks)
-
----
-
-<table>
-<tr><td><img src="https://github.com/CoenraadS/Bracket-Pair-Colorizer-2/raw/develop/images/icon.png" alt="logo" width="60"></td><td><h2>Bracket Pair Colorizer 2</h2></td></tr>
-</table>
-
-[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/CoenraadS.bracket-pair-colorizer-2.svg)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) [![Installs](https://vsmarketplacebadge.apphb.com/installs/CoenraadS.bracket-pair-colorizer-2.svg)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) [![Rating](https://vsmarketplacebadge.apphb.com/rating/CoenraadS.bracket-pair-colorizer-2.svg)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-
-This extension allows matching brackets to be identified with colours. The user can define which tokens to match, and which colours to use.
-
-![Screenshot](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2/raw/develop/images/example.png "Bracket Pair Colorizer")
-
-`CoenraadS.bracket-pair-colorizer-2`
-
-> [Repository](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2)
 
 ---
 
@@ -714,3 +735,17 @@ Provides comprehensive YAML Language support to [Visual Studio Code](https://cod
 `redhat.vscode-yaml`
 
 > [Repository](https://github.com/redhat-developer/vscode-yaml)
+
+---
+
+## Notes:
+
+Bracket pairing/colorization is now 'built-in' to VSCode. To enable:
+
+**settings.json**
+``` json
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
+}
+```
