@@ -1,6 +1,6 @@
 # Bryan's VSCode Extension Pack
 
-> This extension collection contains those that I use most frequently and covers an assortment of different technologies and tools.
+> This extension collection contains those that I use most frequently and covers an assortment of different technologies and tools. Current extension count: `35`.
 
 The extensions packaged in this bundle are idenfied below in alphabetical order.
 

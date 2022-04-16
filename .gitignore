@@ -1,6 +1,5 @@
 node_modules
-*.vsix
+#*.vsix
 .DS_Store
 *.notes
 docs/
-builds/
